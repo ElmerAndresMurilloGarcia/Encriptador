@@ -1,0 +1,153 @@
+*{
+    background-color: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    width: 120px;
+    height: 48px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.caja-texto{
+    width: 700px;
+    height: 470px;
+    border: none;
+    color: #0A3871;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 120px;
+    text-transform: lowercase;
+}
+::placeholder{
+    color: #0A3871; }
+    .caja-texto:focus {
+        outline: none;
+    }
+
+.alerta{
+    display: flex;
+    position: static;
+    margin-left: 120px;
+    color: #495057; 
+    font-size: 16px;   
+}
+.alerta p{
+    color: gray;
+    font-size: 12px;
+}
+
+.simbolo{
+    display: flex;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.contenedor-botones{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 120px;
+}
+
+.btn-encriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.respuesta{
+    width: 300px;
+    position: static;
+    height: 50px;    
+    background: white;
+    border: none;
+    color: #0A3871;
+    margin-top: 20px;
+    margin-left: 220px;
+    position: fixed;
+}
+.respuesta:focus {
+    outline: none;
+}
+
+.contenedor-parrafo{
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-radius: 24px;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.contenedor-parrafo h6, p{
+    width: 250px;
+    position: absolute;
+    background-color: white;
+    border: none;
+    text-align: center;
+}
+
+.muneco{
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin-top: 100px;
+    margin-left: 32px;
+}
+
+.primer-mensaje{
+    color: #343A40;
+    font-size: 24px;
+    margin-top: 300px;
+    
+}
+
+.segundo-mensaje{
+    color: #495057;
+    font-size: 16px;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.ocultar{
+    display: none;
+}
